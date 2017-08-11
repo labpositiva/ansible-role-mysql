@@ -1,8 +1,7 @@
 # Ansible Role MySQL
 
-[![Build Status](https://travis-ci.org/dgnest/ansible-role-mysql.svg)](https://travis-ci.org/dgnest/ansible-role-mysql)
-[![Stories in Ready](https://badge.waffle.io/dgnest/ansible-role-mysql.svg?label=ready&title=Ready)](http://waffle.io/dgnest/ansible-role-mysql)
-[![GitHub issues](https://img.shields.io/github/issues/dgnest/ansible-role-mysql.svg)](https://github.com/dgnest/ansible-role-mysql/issues)
+[![Build Status](https://travis-ci.org/labpositiva/ansible-role-mysql.svg)](https://travis-ci.org/labpositiva/ansible-role-mysql)
+[![GitHub issues](https://img.shields.io/github/issues/labpositiva/ansible-role-mysql.svg)](https://github.com/labpositiva/ansible-role-mysql/issues)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 
 
@@ -57,7 +56,7 @@ To install a specific version:
 
     - hosts: servers
       roles:
-         - { role: dgnest.mysql }
+         - { role: labpositiva.mysql }
 
 
 ## Changelog
